@@ -1,0 +1,46 @@
+.sidebarchats {
+    display: flex;
+  cursor: pointer;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+
+}
+
+
+
+
+
+.sidebarchats__info {
+    margin-left: 15px;
+    position: relative;
+    width: 100%;
+}
+.sidebarchats__info{
+margin-bottom: 3px;
+}
+
+.sidebarchats__info > small{
+  font-size: x-small;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.sidebarchats:hover {
+  background-color: #ebebeb;
+  color: black;
+}
+
+@media (max-width:800px) {
+    .chat{
+        display: flex;
+        flex:1;
+    }
+    .sidebarchats:hover {
+  background-color: lightgray;
+  opacity: 0.8;
+  color: black;
+}
+    
+}

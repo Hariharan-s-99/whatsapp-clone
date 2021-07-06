@@ -1,0 +1,10 @@
+.whatsapp{
+    display: flex;
+}
+
+@media (max-width:800px) {
+    .whatsapp{
+        display: flex;
+    }
+    
+}
